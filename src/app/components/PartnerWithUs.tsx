@@ -15,7 +15,7 @@ export default function PartnerWithUs() {
   
           <iframe
             src="http://f4fsellscom.local/contact-form/"
-            className="w-full max-w-xl mx-auto h-[600px] border-0"
+            className="w-full mx-auto h-[800px] border-0"
             title="Partner With Us Form"
             loading="lazy"
           />

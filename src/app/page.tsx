@@ -17,7 +17,7 @@ export default async function Home() {
     <>
         {parts.map((part: string, index: number) => {
           const shortcode = shortcodes[index];
-          console.log('shortcodes found:', shortcodes);
+
           return (
             <div key={index}>
               <div dangerouslySetInnerHTML={{ __html: part }} />
