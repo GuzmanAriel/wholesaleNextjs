@@ -3,4 +3,5 @@ export async function getPageBySlug(slug) {
     const data = await res.json();
     return data[0]; // first match
   }
+
   
